@@ -1,0 +1,716 @@
+{
+  "data": {
+    "poi": {
+      "results": [
+        {
+          "_uri": "https://data.datatourisme.gouv.fr/10/000283ba-f94b-3bce-8f57-e5c10bec6cd4",
+          "rdf_type": [
+            "urn:resource",
+            "https://www.datatourisme.gouv.fr/ontology/core#ArcheologicalSite",
+            "https://www.datatourisme.gouv.fr/ontology/core#CulturalSite",
+            "https://www.datatourisme.gouv.fr/ontology/core#PlaceOfInterest",
+            "https://www.datatourisme.gouv.fr/ontology/core#PointOfInterest"
+          ],
+          "rdfs_comment": [
+            {
+              "value": "Les ruines de la Villa du Grosswald sont en bordure d'un plateau calcaire et dominent la vall\ufffd\ufffde du Fusslach. La villa romaine s'ins\ufffd\ufffdrait dans un environnement complexe, \ufffd\ufffd proximit\ufffd\ufffd d'une voie, d'une source, d'autres villas et d'un vicus.",
+              "lang": "fr"
+            }
+          ],
+          "isLocatedAt": [
+            {
+              "_uri": "https://data.datatourisme.gouv.fr/f716fdcb-3af3-37d0-9975-8ffabf7c410d",
+              "rdf_type": [
+                "http://schema.org/Place",
+                "https://www.datatourisme.gouv.fr/ontology/core#Place"
+              ],
+              "schema_address": [
+                {
+                  "_uri": "https://data.datatourisme.gouv.fr/4e6457b2-dbf7-327a-a016-16f203c07163",
+                  "rdf_type": [
+                    "http://schema.org/PostalAddress",
+                    "https://www.datatourisme.gouv.fr/ontology/core#PostalAddress"
+                  ],
+                  "schema_addressLocality": [
+                    "Sarreinsming"
+                  ],
+                  "schema_postalCode": [
+                    "57905"
+                  ],
+                  "schema_streetAddress": null,
+                  "schema_postOfficeBoxNumber": null,
+                  "hasAddressCity": [
+                    {
+                      "_uri": "https://www.datatourisme.gouv.fr/resource/core#57633",
+                      "rdf_type": [
+                        "http://www.w3.org/2002/07/owl#NamedIndividual",
+                        "https://www.datatourisme.gouv.fr/ontology/core#City"
+                      ],
+                      "isPartOfDepartment": [
+                        {
+                          "_uri": "https://www.datatourisme.gouv.fr/resource/core#France4457",
+                          "rdf_type": [
+                            "http://www.w3.org/2002/07/owl#NamedIndividual",
+                            "https://www.datatourisme.gouv.fr/ontology/core#Department"
+                          ],
+                          "isPartOfRegion": [
+                            {
+                              "_uri": "https://www.datatourisme.gouv.fr/resource/core#France44",
+                              "rdf_type": [
+                                "http://www.w3.org/2002/07/owl#NamedIndividual",
+                                "https://www.datatourisme.gouv.fr/ontology/core#Region"
+                              ],
+                              "isPartOfCountry": [
+                                {
+                                  "_uri": "https://www.datatourisme.gouv.fr/resource/core#France",
+                                  "rdf_type": [
+                                    "http://schema.org/Country",
+                                    "http://www.w3.org/2002/07/owl#NamedIndividual"
+                                  ],
+                                  "rdfs_label": [
+                                    {
+                                      "lang": "fr",
+                                      "value": "France"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "insee": [
+                                "44"
+                              ],
+                              "rdfs_label": [
+                                {
+                                  "value": "Grand Est",
+                                  "lang": "fr"
+                                }
+                              ]
+                            }
+                          ],
+                          "insee": [
+                            "57"
+                          ],
+                          "rdfs_label": [
+                            {
+                              "value": "Moselle",
+                              "lang": "fr"
+                            }
+                          ]
+                        }
+                      ],
+                      "insee": [
+                        "57633"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Sarreinsming",
+                          "lang": "fr"
+                        }
+                      ]
+                    }
+                  ],
+                  "cedex": null
+                }
+              ],
+              "schema_geo": [
+                {
+                  "_uri": "https://data.datatourisme.gouv.fr/a37e4ce6-d623-359a-a613-90dce389fb47",
+                  "rdf_type": [
+                    "http://schema.org/GeoCoordinates"
+                  ],
+                  "schema_longitude": [
+                    7.09963628523632
+                  ],
+                  "schema_elevation": null,
+                  "schema_latitude": [
+                    49.0816164488503
+                  ],
+                  "schema_line": null,
+                  "schema_polygon": null,
+                  "schema_circle": null,
+                  "schema_box": null
+                }
+              ],
+              "schema_openingHoursSpecification": [
+                {
+                  "_uri": "https://data.datatourisme.gouv.fr/de45ed96-8ba3-3fbe-92d4-743ffc1ce88a",
+                  "rdf_type": [
+                    "http://schema.org/OpeningHoursSpecification"
+                  ],
+                  "schema_dayOfWeek": [
+                    {
+                      "_uri": "http://schema.org/Friday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Vendredi",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Monday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Lundi",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Saturday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Samedi",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Sunday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Dimanche",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Thursday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Jeudi",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Tuesday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Mardi",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Wednesday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Mercredi",
+                          "lang": "fr"
+                        }
+                      ]
+                    }
+                  ],
+                  "schema_closes": null,
+                  "additionalInformation": [],
+                  "schema_validFrom": [
+                    "2021-01-01 00:00:00"
+                  ],
+                  "schema_validThrough": [
+                    "2021-12-31 23:59:59"
+                  ],
+                  "schema_opens": null,
+                  "weekOfMonth": null
+                },
+                {
+                  "_uri": "https://data.datatourisme.gouv.fr/ab384d86-8c97-3a21-953b-42dfc199347b",
+                  "rdf_type": [
+                    "http://schema.org/OpeningHoursSpecification"
+                  ],
+                  "schema_dayOfWeek": [
+                    {
+                      "_uri": "http://schema.org/Friday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Vendredi",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Monday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Lundi",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Saturday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Samedi",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Sunday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Dimanche",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Thursday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Jeudi",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Tuesday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Mardi",
+                          "lang": "fr"
+                        }
+                      ]
+                    },
+                    {
+                      "_uri": "http://schema.org/Wednesday",
+                      "rdf_type": [
+                        "http://schema.org/DayOfWeek"
+                      ],
+                      "rdfs_label": [
+                        {
+                          "value": "Mercredi",
+                          "lang": "fr"
+                        }
+                      ]
+                    }
+                  ],
+                  "schema_closes": null,
+                  "additionalInformation": [],
+                  "schema_validFrom": [
+                    "2022-01-01 00:00:00"
+                  ],
+                  "schema_validThrough": [
+                    "2022-12-31 23:59:59"
+                  ],
+                  "schema_opens": null,
+                  "weekOfMonth": null
+                }
+              ],
+              "airConditioning": null,
+              "internetAccess": null,
+              "noSmoking": null,
+              "altInsee": null,
+              "petsAllowed": [
+                true
+              ]
+            }
+          ],
+          "rdfs_label": [
+            {
+              "value": "VILLA GALLO ROMAINE DU GROSSWALD",
+              "lang": "fr"
+            }
+          ],
+          "hasBookingContact": [],
+          "hasFeature": [],
+          "hasTheme": [
+            {
+              "_uri": "https://www.datatourisme.gouv.fr/resource/core#Antique",
+              "rdf_type": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual",
+                "https://www.datatourisme.gouv.fr/ontology/core#ArchitecturalStyle"
+              ],
+              "rdfs_label": [
+                {
+                  "value": "Antique",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "_uri": "https://www.datatourisme.gouv.fr/resource/core#Antiquity",
+              "rdf_type": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual",
+                "https://www.datatourisme.gouv.fr/ontology/core#CulturalTheme"
+              ],
+              "rdfs_label": [
+                {
+                  "value": "Antiquit\ufffd\ufffd",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ],
+          "offers": [],
+          "hasCommunicationContact": [],
+          "hasReview": [
+            {
+              "_uri": "https://data.datatourisme.gouv.fr/4d672591-b642-3982-91a7-b0b7a8872d12",
+              "rdf_type": [
+                "https://www.datatourisme.gouv.fr/ontology/core#Review"
+              ],
+              "hasReviewValue": [
+                {
+                  "_uri": "https://www.datatourisme.gouv.fr/resource/core#COVID19ProtocolsCommitted",
+                  "rdf_type": [
+                    "http://www.w3.org/2002/07/owl#NamedIndividual",
+                    "https://www.datatourisme.gouv.fr/ontology/core#LabelRating"
+                  ],
+                  "isRatingProvidedBy": [],
+                  "rdfs_label": [
+                    {
+                      "value": "Engag\ufffd\ufffd \ufffd\ufffd respecter les protocoles sanitaires officiels Covid-19",
+                      "lang": "fr"
+                    }
+                  ]
+                }
+              ],
+              "reviewExpirationDate": null,
+              "reviewDeliveryDate": null,
+              "pending": null,
+              "schema_datePublished": null
+            }
+          ],
+          "isOwnedBy": [],
+          "hasManagementContact": [],
+          "hasDescription": [
+            {
+              "_uri": "https://data.datatourisme.gouv.fr/eec876f7-cd5b-3cf5-9a14-7dd10cf5b09e",
+              "rdf_type": [
+                "https://www.datatourisme.gouv.fr/ontology/core#Description"
+              ],
+              "dc_description": [],
+              "isDedicatedTo": [],
+              "shortDescription": [
+                {
+                  "value": "Les ruines de la Villa du Grosswald sont en bordure d'un plateau calcaire et dominent la vall\ufffd\ufffde du Fusslach. La villa romaine s'ins\ufffd\ufffdrait dans un environnement complexe, \ufffd\ufffd proximit\ufffd\ufffd d'une voie, d'une source, d'autres villas et d'un vicus.",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ],
+          "hasMainRepresentation": [
+            {
+              "_uri": "https://data.datatourisme.gouv.fr/e965bed0-8b6e-3564-b8b0-ff264f4ea0ca",
+              "rdf_type": [
+                "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject"
+              ],
+              "ebucore_hasAnnotation": [
+                {
+                  "_uri": "https://data.datatourisme.gouv.fr/82dfd86e-4a69-397e-856a-20e99888dbc9",
+                  "rdf_type": [
+                    "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation"
+                  ],
+                  "ebucore_comments": [],
+                  "ebucore_abstract": [],
+                  "credits": [
+                    "Autrement Vu - Sarreguemines Tourisme"
+                  ],
+                  "ebucore_title": [],
+                  "ebucore_isCoveredBy": null,
+                  "isDedicatedTo": [],
+                  "rightsStartDate": null,
+                  "dct_hasVersion": null,
+                  "rightsEndDate": null
+                }
+              ],
+              "ebucore_hasRelatedResource": [
+                {
+                  "_uri": "https://data.datatourisme.gouv.fr/0b615da1-f29a-304b-9150-8ffc33c8058f",
+                  "rdf_type": [
+                    "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource"
+                  ],
+                  "ebucore_hasMimeType": [],
+                  "ebucore_widthUnit": null,
+                  "ebucore_locator": [
+                    "https://opendata.sitlor.fr/photos/947/947001245_4_800x600.jpg"
+                  ],
+                  "ebucore_width": null,
+                  "ebucore_heightUnit": null,
+                  "ebucore_fileSize": null,
+                  "ebucore_height": null
+                }
+              ]
+            }
+          ],
+          "hasBeenCreatedBy": [
+            {
+              "_uri": "https://data.datatourisme.gouv.fr/c54a3942-47f7-3568-8885-ad83a92316e2",
+              "rdf_type": [
+                "http://schema.org/Organization",
+                "https://www.datatourisme.gouv.fr/ontology/core#Agent",
+                "http://xmlns.com/foaf/0.1/Agent"
+              ],
+              "rdfs_comment": [],
+              "schema_address": [],
+              "foaf_homepage": null,
+              "foaf_title": null,
+              "schema_gender": [],
+              "schema_faxNumber": null,
+              "schema_telephone": null,
+              "schema_email": null,
+              "schema_givenName": null,
+              "schema_familyName": null,
+              "agreementLicense": null,
+              "registeredNumber": null,
+              "siret": null,
+              "apeNaf": null,
+              "rcs": null,
+              "schema_legalName": [
+                "SARREGUEMINES TOURISME"
+              ],
+              "schema_logo": null
+            }
+          ],
+          "isEquippedWith": [],
+          "hasNeighborhood": [],
+          "hasGeographicReach": [],
+          "hasRepresentation": [
+            {
+              "_uri": "https://data.datatourisme.gouv.fr/e965bed0-8b6e-3564-b8b0-ff264f4ea0ca",
+              "rdf_type": [
+                "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject"
+              ],
+              "ebucore_hasAnnotation": [
+                {
+                  "_uri": "https://data.datatourisme.gouv.fr/82dfd86e-4a69-397e-856a-20e99888dbc9",
+                  "rdf_type": [
+                    "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation"
+                  ],
+                  "ebucore_comments": [],
+                  "ebucore_abstract": [],
+                  "credits": [
+                    "Autrement Vu - Sarreguemines Tourisme"
+                  ],
+                  "ebucore_title": [],
+                  "ebucore_isCoveredBy": null,
+                  "isDedicatedTo": [],
+                  "rightsStartDate": null,
+                  "dct_hasVersion": null,
+                  "rightsEndDate": null
+                }
+              ],
+              "ebucore_hasRelatedResource": [
+                {
+                  "_uri": "https://data.datatourisme.gouv.fr/0b615da1-f29a-304b-9150-8ffc33c8058f",
+                  "rdf_type": [
+                    "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource"
+                  ],
+                  "ebucore_hasMimeType": [],
+                  "ebucore_widthUnit": null,
+                  "ebucore_locator": [
+                    "https://opendata.sitlor.fr/photos/947/947001245_4_800x600.jpg"
+                  ],
+                  "ebucore_width": null,
+                  "ebucore_heightUnit": null,
+                  "ebucore_fileSize": null,
+                  "ebucore_height": null
+                }
+              ]
+            }
+          ],
+          "hasContact": [
+            {
+              "_uri": "https://data.datatourisme.gouv.fr/b94127aa-3dde-3f13-a6f9-9bf1efd27ddc",
+              "rdf_type": [
+                "https://www.datatourisme.gouv.fr/ontology/core#Agent",
+                "http://xmlns.com/foaf/0.1/Agent"
+              ],
+              "rdfs_comment": [],
+              "schema_address": [],
+              "foaf_homepage": null,
+              "foaf_title": null,
+              "schema_gender": [],
+              "schema_faxNumber": null,
+              "schema_telephone": [
+                "+33 3 87 98 05 94"
+              ],
+              "schema_email": null,
+              "schema_givenName": null,
+              "schema_familyName": null,
+              "agreementLicense": null,
+              "registeredNumber": null,
+              "siret": null,
+              "apeNaf": null,
+              "rcs": null,
+              "schema_legalName": null,
+              "schema_logo": null
+            }
+          ],
+          "hasBeenPublishedBy": [
+            {
+              "_uri": "https://data.datatourisme.gouv.fr/39f8abf8-1828-3176-97f2-cfb47d18656a",
+              "rdf_type": [
+                "http://schema.org/Organization",
+                "https://www.datatourisme.gouv.fr/ontology/core#Agent",
+                "http://xmlns.com/foaf/0.1/Agent"
+              ],
+              "rdfs_comment": [],
+              "schema_address": [],
+              "foaf_homepage": [
+                "http://www.sitlorpro.com/"
+              ],
+              "foaf_title": null,
+              "schema_gender": [],
+              "schema_faxNumber": null,
+              "schema_telephone": null,
+              "schema_email": [
+                "contact@sitlorpro.com"
+              ],
+              "schema_givenName": null,
+              "schema_familyName": null,
+              "agreementLicense": null,
+              "registeredNumber": null,
+              "siret": null,
+              "apeNaf": null,
+              "rcs": null,
+              "schema_legalName": [
+                "Syst\ufffd\ufffdme d'information touristique Lorrain"
+              ],
+              "schema_logo": [
+                "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg"
+              ]
+            }
+          ],
+          "hasClientTarget": [
+            {
+              "_uri": "https://www.datatourisme.gouv.fr/resource/core#ForAll",
+              "rdf_type": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual",
+                "https://www.datatourisme.gouv.fr/ontology/core#PeopleAudience"
+              ],
+              "requiredMinPersonCount": null,
+              "requiredMaxPersonCount": null,
+              "schema_suggestedGender": [],
+              "schema_requiredMaxAge": null,
+              "schema_suggestedMinAge": null,
+              "schema_suggestedMaxAge": null,
+              "schema_requiredGender": [],
+              "schema_requiredMinAge": null,
+              "rdfs_label": [
+                {
+                  "value": "Tout public",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "_uri": "https://www.datatourisme.gouv.fr/resource/core#Groups",
+              "rdf_type": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual",
+                "https://www.datatourisme.gouv.fr/ontology/core#PeopleAudience"
+              ],
+              "requiredMinPersonCount": null,
+              "requiredMaxPersonCount": null,
+              "schema_suggestedGender": [],
+              "schema_requiredMaxAge": null,
+              "schema_suggestedMinAge": null,
+              "schema_suggestedMaxAge": null,
+              "schema_requiredGender": [],
+              "schema_requiredMinAge": null,
+              "rdfs_label": [
+                {
+                  "value": "Groupes",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ],
+          "hasAdministrativeContact": [],
+          "lastUpdate": [
+            "2020-11-26 00:00:00"
+          ],
+          "allowedPersons": null,
+          "lastUpdateDatatourisme": [
+            "2021-01-06 06:34:08"
+          ],
+          "availableLanguage": [
+            "DE",
+            "EN"
+          ],
+          "reducedMobilityAccess": [
+            false
+          ],
+          "COVID19OpeningPeriodsConfirmed": [
+            true
+          ],
+          "creationDate": null,
+          "dc_identifier": [
+            "947001245"
+          ],
+          "COVID19SpecialMeasures": [],
+          "takesPlaceAt": [],
+          "hasTourType": [],
+          "minAltitude": null,
+          "maxAltitude": null,
+          "tourDistance": null,
+          "duration": null,
+          "highDifference": null,
+          "olo_slot": [],
+          "hasArchitecturalStyle": [
+            {
+              "_uri": "https://www.datatourisme.gouv.fr/resource/core#Antique",
+              "rdf_type": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual",
+                "https://www.datatourisme.gouv.fr/ontology/core#ArchitecturalStyle"
+              ],
+              "rdfs_label": [
+                {
+                  "value": "Antique",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ],
+          "providesCuisineOfType": [],
+          "takeAway": null,
+          "allYouCanEat": null,
+          "providesFoodProduct": [],
+          "guided": null,
+          "hasFloorSize": [],
+          "saleOnSite": null
+        }
+      ]
+    }
+  }
+}
